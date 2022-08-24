@@ -11,7 +11,7 @@ FONT_COLOR_WHITE = (255, 255, 255, 0)
 OUTPUT_NAME = 'output.png'
 OUTPUT_FORMAT = 'PNG'
 
-def save_with_message(fp, message)
+def save_with_message(fp, message):
     image = Image.open(fp)
     draw = ImageDraw.Draw(image)
     image_width, image_height = image.size
